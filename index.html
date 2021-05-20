@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NS-HOME</title>
+        <style>
+            #fixed-menu {
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                height: 71px;
+                background-color: inherit;
+                display: block;
+                z-index: 1;
+            }
+            .fm-a {
+                color: white;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 41px;
+                padding-right: 41px;
+                text-decoration: none;
+                font-size: 21px;
+                display: block;
+                float: right;
+                font-family: Cambria;
+            }
+            .fm-img {
+                float: left;
+                display: block;
+                padding-left: 12px;
+            }
+            .fm-a:hover {
+                border-bottom: thick solid white;
+            }
+            .st-img {
+                border: thick solid white;
+                border-radius: 100%;
+                background-color: white;
+                display: block;
+                top: 100px;
+                right: 55%;
+                position: absolute;
+            }
+            .start {
+                height: 580px;
+                width: 100%;
+            }
+            .st-intro {
+                width: 400px;
+                text-align: center;
+                position: absolute;
+                top: 100px;
+                left: 55%;
+                border-radius: 30px;
+                border: thick solid black;
+            }
+            .st-intro-p {
+                font-family: Cambria;
+                font-size: 23px;
+                color: black;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .st-menu {
+                position: absolute;
+                bottom: 100px;
+                width: 100%;
+                height: 40px;
+                background-color: inherit;
+                text-align: center;
+            }
+            .st-menu-a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 15px;
+                background-color: white;
+                text-decoration: none;
+                font-family: Cambria;
+                font-size: 27px;
+                margin-left: 22px;
+                margin-right: 22px;
+                color: rgb(2, 68, 155);
+                background: linear-gradient(to left, white 50%, rgb(241, 221, 154) 50%) right;
+                background-size: 200%;
+                transition: .3s ease-out;
+            }
+            .st-menu-a:hover {
+                background-position: left;
+            }
+            .st-background-img {
+                position: absolute;
+                top: 0;
+            }
+            .main {
+                margin-top: 100px;
+                box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+                width:90%;
+                position: absolute;
+                text-align: center;
+                margin-left: 80px;
+                background-color: white;
+                position: relative;
+            }
+            h1 {
+                color: rgb(58, 58, 58);
+                font-family: Cambria;
+                font-size: 45px;
+            }
+            p {
+                font-family: Cambria;
+                font-size: 23px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(212, 64, 64);
+                font-size: 23px;
+                font-family: Cambria;
+            }
+            .blog {
+                width: 100%;
+            }
+            .blog-info {
+                border-right: 2px solid grey;
+                width: 20%;
+            }
+            .blog-main {
+                width: 80%;
+            }
+            .blog-content {
+                padding: 20px;
+                font-size: 21px;
+            }
+            .blog-head {
+                padding: 20px;
+                font-size: 42px;
+            }
+            .ending {
+                width: 100%;
+                height: 450px;
+                position: relative;
+                text-align: center;
+                font-size: 20px;
+                font-family: monospace;
+                background-color: rgb(41, 87, 238);
+                color: white;
+            }
+            .end1 {
+                top: 60px;
+                width: 33%;
+                position: absolute;
+                left: 2%;
+            }
+            .end2 {
+                position: absolute;
+                top: 55px;
+                left: 38%;
+                border-spacing: 30px;
+            }
+            .end3 {
+                position: absolute;
+                top: 80px;
+                left: 64%;
+                width: 33%;
+            }
+            .main2end-spacing {
+                height: 100px;
+            }
+            .end-ql {
+                color: white;
+                font-family: monospace;
+                font-size: 20px;
+                text-decoration: none;
+            } 
+            .end-ql:hover {
+                color: rgb(255, 0, 0);
+                text-shadow: 0 0 20px rgb(255, 0, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="fixed-menu">
+            <a href="" class="fm-a">About Us</a>
+            <a href="" class="fm-a">Studies</a>
+            <a href="" class="fm-a">Books</a>
+            <a href="" class="fm-a">Entertainment</a>
+            <a href="" class="fm-a">Games</a>
+            <a href="" class="fm-a">Home</a>
+            <img src="images/NS-LOGO.png" width="90px" class="fm-img">
+        </div>
+        <div class="start">
+            <img class="st-background-img" src="https://images.pexels.com/photos/907485/pexels-photo-907485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="100%">
+            <img class="st-img" width="340px" src="images/NS-LOGO.png">
+            <div class="st-intro">
+                <p class="st-intro-p">This is the official personal website of Nafis Sadiq (NS or me). In this website you can find some fun things like books, games
+                    , movies, problems etc. I made this website beacause...... well you can say I made this website just for fun!!! So, help yourself on having a tour 
+                    through this website. <br>GOOD LUCK!!!
+                </p>
+            </div>
+            <div class="st-menu">
+                <a class="st-menu-a" href="#top"><strong>Top</strong></a>
+                <a class="st-menu-a" href="#blogs"><strong>Blogs</strong></a>
+                <a class="st-menu-a" href=""><strong>About Us</strong></a>
+            </div>
+        </div>
+        <div class="main">
+            <br>
+            <h1 id="top">Top</h1>
+            <p>This website is completely new so it doesn't have anything top. LOL!!!</p>
+            <br><br><br>
+            <!--This is my blogs section-->
+            <h1 id="blogs">Blogs</h1>
+            <br>
+            <hr>
+            <table class="blog">
+                <tr>
+                    <td class="blog-info"><img src="images/NS-LOGO.png" width="100px"></td>
+                    <td class="blog-main"><h1 class="blog-head">This is my first Blog</h1></td>
+                </tr>
+                <tr>
+                    <td class="blog-info"><p>17-05-2021</p></td>
+                    <td class="blog-main"><p class="blog-content">This is my first blog. So, yeah as you might have understood by now this is just a test....
+                        but don't worry I will be giving some proper, fun and well just fun blogs. GOOD LUCK!!
+                    </p></td>
+                </tr>
+            </table>
+            <hr>
+            <hr>
+            <table class="blog">
+                <tr>
+                    <td class="blog-info"><img src="images/NS-LOGO.png" width="100px"></td>
+                    <td class="blog-main"><h1 class="blog-head">This is my first Blog</h1></td>
+                </tr>
+                <tr>
+                    <td class="blog-info"><p>17-05-2021</p></td>
+                    <td class="blog-main"><p class="blog-content">This is my first blog. So, yeah as you might have understood by now this is just a test....
+                        but don't worry I will be giving some proper, fun and well just fun blogs. GOOD LUCK!!
+                    </p></td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+        <div class="main2end-spacing">
+            &nbsp;
+        </div>
+        <!--ending-->
+        <div class="ending">
+            <table class="end1">
+                <tr><td><img src="images/NS-LOGO.png" width="200px"></td></tr>
+                <tr><td>This is my personal website. So.... to know more go to <a href="" class="end-ql">top</a></td></tr>
+            </table>
+            <table class="end2">
+                <tr><td colspan="2">Quick Links:<br><br><br></td></tr>
+                <tr>
+                    <td><a href="" class="end-ql">Home</a></td>
+                    <td><a href="" class="end-ql">Games</a></td>
+                </tr>
+                <tr>
+                    <td><a href="" class="end-ql">Entertainment</a></td>
+                    <td><a href="" class="end-ql">Books</a></td>
+                </tr>
+                <tr>
+                    <td><a href="" class="end-ql">Studies</a></td>
+                    <td><a href="" class="end-ql">Gallary</a></td>
+                </tr>
+                <tr><td colspan="2"><a href="" class="end-ql">About Us</a></td></tr>
+            </table>
+            <table class="end3">
+                <tr><td>Contact Us:<br><br><br><br></td></tr>
+                <tr><td>Email: <a class="end-ql" href="n.nafissadiq.s@gmail.com">n.nafissadiq.s@gmail.com</a></td></tr>
+            </table>
+        </div>
+        <!--some javascript codings-->
+        <!--change background color of the fixed menu on scroll-->
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+                    document.getElementById("fixed-menu").style.backgroundColor = "rgb(255, 24, 24)";
+                }
+                else {
+                    document.getElementById("fixed-menu").style.backgroundColor = "inherit";
+                }
+            }
+        </script>
+    </body>
+</html>
